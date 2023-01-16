@@ -1,0 +1,3 @@
+bumpy
+django-rest-framework
+opencv-python
