@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page de connexion</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <div class="container-fluid bg-secondary text-white col-md-6 shadow rounded" style="margin-top: 10%;">
+      
+      <br><br><br>
+      <div class = "text-center my-5">
+        <p><H1>Projet MIR et Cloud Groupe 15</H1></p>
+        <br>
+        <div class="text-center mb-5">
+          <p>Identifiez-vous pour accéder au moteur de recherche</p><br>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <form action="#" method="post">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="submit" class="btn btn-primary" value="Connexion">
+            <br><br><br>
+          </form> 
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-white" style="position:absolute; bottom:0; width:100%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center my-3">Copyright &copy; Groupe 15 2022/2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
+
+
+
